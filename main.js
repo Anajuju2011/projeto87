@@ -1,14 +1,14 @@
 
 var canvas = new fabric.Canvas("myCanvas");
- blockY=1;
- blockX=1;
+ block_y=1;
+ block_x=1;
 
 block_image_width = 350;
 block_image_height = 430;
 
 var block_image_object= "";
 
-function newImage(get_image)
+function new_image(get_image)
 {
 	fabric.Image.fromURL(get_image,  function(Img) 
 	{ block_image_object = Img;
