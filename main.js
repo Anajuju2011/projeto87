@@ -34,26 +34,26 @@ console.log(keyPressed);
 	}
 	if(keyPressed == '86')
 	{
-		blockX = 200;
+		block_x = 200;
 		new_image("gr.png");
 		console.log("v");
 	}
 	
 	if(keyPressed == '65')
 	{
-		blockX =350;
+		block_x =350;
 		new_image("yr.png");
 		console.log("a");
 	}
 	if(keyPressed == '82')
 	{
-		blockX = 600;
+		block_X = 600;
 		new_image("pr.png");
 		console.log("r");
 	}
 	if(keyPressed == '73')
 	{
-		blockX = 700;
+		block_x = 700;
 		new_image("br.png");
 		console.log("i");
 	}
